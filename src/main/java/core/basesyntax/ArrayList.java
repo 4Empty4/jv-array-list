@@ -7,7 +7,7 @@ public class ArrayList<T> implements List<T> {
     private static final int GROW_DENOMINATOR = 2;
 
     private Object[] elements;
-    private int size = 0;
+    private int size;
 
     public ArrayList() {
 
